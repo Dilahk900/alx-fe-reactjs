@@ -1,18 +1,48 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import WelcomeMessage from './components/WelcomeMessage';
+
+
+
+
+import Header from './components/Header';
+import MainContent from './components/MainContent';
+import Footer from './components/Footer';
+
+
 
 function App() {
   return (
     <div>
-      <WelcomeMessage />
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   );
 }
 
-/*function App() {
+export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+
+function App() {
   const [count, setCount] = useState(0)
 
   return (
@@ -43,5 +73,19 @@ function App() {
   
 }*/
 
-export default App
+/*import WelcomeMessage from './components/WelcomeMessage';
+
+function App() {
+  return (
+    <div>
+      <WelcomeMessage />
+    </div>
+  );
+}*/
+
+
+
+
+
+
 
