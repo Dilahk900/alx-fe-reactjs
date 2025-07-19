@@ -5,10 +5,11 @@ function MainContent() {
     <main style={{
       padding: '20px',
       backgroundColor: '#eef',
-      minHeight: '300px'
+      minHeight: '200px',
+      fontSize: '18px'
     }}>
       <h2 style={{ textAlign: 'center' }}>Explore the Cities</h2>
-      <p>Discover the culture, beauty, and uniqueness of each destination.</p>
+      <p>I love to visit New York, Paris, and Tokyo.</p>
     </main>
   );
 }
